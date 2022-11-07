@@ -73,19 +73,19 @@ function filterTable() {
   }
 
   if (city) {
-    filteredData = filteredData.filter(row => row.city === city);
+    filteredData = filteredData.filter(row => row.city === city.toLowerCase());
   }
 
   if (state) {
-    filteredData = filteredData.filter(row => row.state === state);
+    filteredData = filteredData.filter(row => row.state === state.toLowerCase());
   }
 
   if (country) {
-    filteredData = filteredData.filter(row => row.country === country);
+    filteredData = filteredData.filter(row => row.country === country.toLowerCase());
   }
 
   if (shape) {
-    filteredData = filteredData.filter(row => row.shape === shape);
+    filteredData = filteredData.filter(row => row.shape === shape.toLowerCase());
   }
 
   // 10. Finally, rebuild the table using the filtered data
