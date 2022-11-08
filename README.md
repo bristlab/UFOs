@@ -2,11 +2,11 @@
 
 ## Overview
 
-Our goal here is to utilize HTML and JavaScript to create a dynamic webpage which allows visitors to filter filter various UFO sightings by date, location and UFO shape.
+Our goal here is to utilize HTML and JavaScript to create a dynamic webpage which allows visitors to filter various UFO sightings by date, location and UFO shape.
 
 ### HTML
 
-Our [index.html](https://github.com/bristlab/UFOs/blob/main/index.html) document takes advantage of [Bootstrap](https://getbootstrap.com/) to quickly and easily create a layout for our site using `<DIV>` containers and basic CSS. Bootstrap does most of the heavy lifting for styling, whereas our `style.css` file handles the banner image. We import the BZootstrap stylesheet from a CDN using the following code:
+Our [index.html](https://github.com/bristlab/UFOs/blob/main/index.html) document takes advantage of [Bootstrap](https://getbootstrap.com/) to quickly and easily create a layout for our site using `<DIV>` containers and basic CSS. Bootstrap does most of the heavy lifting for styling, whereas our `style.css` file handles the banner image. We import the Bootstrap stylesheet from a CDN using the following code:
 
 `<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
 integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />`
@@ -31,8 +31,9 @@ The JavaScript functions we've written in [app.js](https://github.com/bristlab/U
 
 ## Results
 
-Our website has been deployed at [bristlab.github.io/UFOs](https://bristlab.github.io/UFOs/) so that users can check out the end result. For example, try entering `CA` into the 'state' input field and press enter. The table should then display all UFO sightings in California. As a bonus, we made sure that the form accepts both uppercase and lowercase characters.
+Our website has been deployed at [bristlab.github.io/UFOs](https://bristlab.github.io/UFOs/) so that users can check out the end result. For example, try entering `CA` into the 'state' input field and press enter. The table should then display all UFO sightings in California. As a bonus, we made sure that the form accepts both uppercase and lowercase characters by appending `.toLowerCase()` to our input strings.
 
 
 ## Summary
 
+Unfortunately the dataset only contains around 100 entries spanning two weeks in the year 2010, and that isn't nearly enough data to draw any conclusions. While we have built a solid proof of concept here, if we want to confirm whether an alien attack is imminent, we're going to need a lot more data.
