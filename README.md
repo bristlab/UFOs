@@ -33,7 +33,7 @@ The JavaScript functions we've written in [app.js](https://github.com/bristlab/U
 
 Our website has been deployed at [bristlab.github.io/UFOs](https://bristlab.github.io/UFOs/) so that users can check out the end result. For example, try entering `CA` into the 'state' input field and press enter. The table should then display all UFO sightings in California. As a bonus, we made sure that the form accepts both uppercase and lowercase characters by appending `.toLowerCase()` to our input strings.
 
-![truth_is_out_there](https://github.com/bristlab/UFOs-ETL/blob/main/truth_is_out_there.png?raw=true)
+![truth_is_out_there](https://github.com/bristlab/UFOs/blob/main/truth_is_out_there.png?raw=true)
 
 
 ## Summary
